@@ -1,23 +1,13 @@
 # Execution Instructions
 
-First, to generate the library `librsocket.a`, run
+Generating `librsocket.a`, the library containing the MRP Protocol.
 ```
 make -f makefile.librsocket
 ```
 
-Then, to create the two executable files from `user1.c` and `user2.c`, run
+Then, create two user executables from `user1.c` and `user2.c`, to test
 ```
 make -f makefile.user
-```
-This will create two executables `user1` and `user2`.
-
-First execute `user2` using
-```
-./user2
-```
-Then execute `user1` using
-```
-./user1
 ```
 
 To delete all binaries, run
